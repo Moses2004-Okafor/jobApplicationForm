@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Roboto";
+  src: local("Roboto");
+}
+body {
+  background-color: #f3f4f6;
+  margin: 50px;
+  font-family: "Roboto", Times, serif;
+}
+h1 {
+  color: purple;
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.application-container p{
+  font-style:italic;
+}
+#applicationForm {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  border: 1px solid black;
+  background: #fff;
+  padding: 35px 70px;
+  border-radius: 30px;
+  margin: 40px auto;
+  width: 50%;
+}
+input{
+  padding:10px;
+  outline: none;
+  border:1px solid rgb(116, 3, 116);
+}
+input#terms {
+  width: 5%;
+}
+input,
+select {
+  width: 100%;
+  box-sizing: border-box;
+}
+#position {
+  width: 50%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+button {
+  color: #f3f4f6;
+  border-radius: 20px;
+  padding: 15px;
+  width: 100%;
+  background: purple;
+}
